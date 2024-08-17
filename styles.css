@@ -1,1 +1,45 @@
-/*  your css code here. If applicable */
+#grid{
+	display:grid;
+	height:500px;
+	grid-template-areas:
+		"o o o o"
+		"t th f f"
+		"t fi fi s"
+		"t se e n"
+		"t te te te"
+}
+.i1{
+	grid-area:o;
+}
+.i2{
+	grid-area:t;
+}
+.i3{
+	grid-area:th;
+}
+.i4{
+	grid-area:f;
+}
+.i5{
+	grid-area:fi;
+}
+.i6{
+	grid-area:s;
+}
+.i7{
+	grid-area:se;
+}
+.i8{
+	grid-area:e;
+}
+.i9{
+	grid-area:n;
+}
+.i10{
+	grid-area:te;
+}
+#grid div{
+	border:1px solid white;
+	background-color:green;
+	color:white;
+}
