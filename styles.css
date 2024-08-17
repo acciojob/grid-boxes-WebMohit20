@@ -1,12 +1,14 @@
 #grid{
 	display:grid;
 	height:500px;
+	grid-template-rows:100px 100px 100px 100px 100px;
 	grid-template-areas:
 		"o o o o"
 		"t th f f"
 		"t fi fi s"
 		"t se e n"
-		"t te te te"
+		"t te te te";
+	
 }
 .i1{
 	grid-area:o;
