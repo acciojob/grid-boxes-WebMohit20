@@ -2,7 +2,7 @@
 	display:grid;
 	/* height:500px; */
 	grid-template-rows:124px 124px 124px 124px 124px;
-	grid-template-columns:span 4 / auto;
+	grid-template-columns:242.5px 242.5px 242.5px 242.5px;
 	grid-template-areas:
 		"o o o o"
 		"t th f f"
